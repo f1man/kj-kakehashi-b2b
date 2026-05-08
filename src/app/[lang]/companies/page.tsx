@@ -141,7 +141,7 @@ export default async function CompaniesPage({
                         {company.name}
                       </Link>
                       {company.verified && (
-                        <CheckCircle2 className="h-4 w-4 text-blue-600" title="Verified Company" />
+                        <CheckCircle2 className="h-4 w-4 text-blue-600" />
                       )}
                     </h3>
                     <div className="text-sm text-slate-500 flex items-center gap-1 mt-1">
