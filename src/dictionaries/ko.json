@@ -1,0 +1,143 @@
+{
+  "home": {
+    "title": "한일 산업용 공급망의 새로운 기준",
+    "description": "5만 개 이상의 스펙 데이터와 검증된 한일 제조/IT 기업베이스. 최적의 파트너를 AI 검색으로 가장 빠르게 찾으세요.",
+    "searchPlaceholder": "제품명, 규격, 또는 제조사를 검색하세요",
+    "searchButton": "검색",
+    "categories": "주요 산업 카테고리",
+    "viewAll": "전체보기",
+    "featuredProducts": "추천 제품 및 부품",
+    "verifiedSuppliers": "검증된 한일 파트너 기업",
+    "stats": {
+      "products": "등록 제품",
+      "companies": "파트너 기업",
+      "rfqs": "누적 견적요청"
+    }
+  },
+  "products": {
+    "title": "제품 검색",
+    "filters": "필터 (Faceted Search)",
+    "category": "카테고리",
+    "specifications": "기술 사양",
+    "certification": "인증/표준",
+    "brand": "브랜드/제조사",
+    "results": "검색 결과",
+    "requestQuote": "견적 요청 (RFQ)",
+    "viewDetails": "상세 보기",
+    "compatible": "호환 가능"
+  },
+  "companies": {
+    "title": "기업 디렉토리",
+    "filters": "기업 필터",
+    "industry": "산업 분야",
+    "verification": "인증 상태",
+    "country": "국가",
+    "results": "검색 결과",
+    "viewProfile": "기업 프로필 보기",
+    "contactSales": "영업 문의"
+  },
+  "dashboard": {
+    "title": "파트너 대시보드",
+    "sidebar": {
+      "profile": "기업 정보 관리",
+      "products": "제품 관리",
+      "rfqs": "견적 요청 (RFQ)",
+      "analytics": "통계"
+    },
+    "profile": {
+      "title": "기업 정보 관리",
+      "save": "저장하기",
+      "basicInfo": "기본 정보",
+      "companyName": "회사명",
+      "description": "회사 소개",
+      "aiSummary": "AI 요약 설명",
+      "media": "미디어 및 파일",
+      "uploadLogo": "로고 업로드",
+      "uploadCatalog": "회사 소개서 (PDF) 업로드"
+    },
+    "products": {
+      "title": "제품 관리",
+      "addNew": "새 제품 등록",
+      "list": "등록된 제품",
+      "name": "제품명",
+      "category": "카테고리",
+      "status": "상태",
+      "actions": "관리",
+      "form": {
+        "title": "제품 등록",
+        "basicInfo": "기본 정보",
+        "specs": "기술 사양 (Specs)",
+        "addSpec": "사양 추가",
+        "specName": "사양 항목 (예: 전압)",
+        "specValue": "값 (예: 24V DC)",
+        "submit": "제품 등록하기"
+      }
+    }
+  },
+  "inquiry": {
+    "title": "문의하기",
+    "description": "KJ Kakehashi B2B 플랫폼에 대한 문의사항이나 파트너십 제안을 남겨주세요.",
+    "form": {
+      "company": "회사명",
+      "name": "담당자 성함",
+      "email": "비즈니스 이메일",
+      "phone": "연락처",
+      "type": "문의 유형",
+      "typeOptions": {
+        "partnership": "제휴 문의",
+        "support": "플랫폼 이용 문의",
+        "sales": "광고/영업 문의",
+        "other": "기타"
+      },
+      "message": "문의 내용",
+      "submit": "문의 등록"
+    }
+  },
+  "rfq": {
+    "title": "견적 요청 (RFQ)",
+    "description": "필요한 부품이나 제품의 상세 사양을 입력하여 견적을 요청하세요.",
+    "form": {
+      "quantity": "수량",
+      "deadline": "납기 희망일",
+      "notes": "추가 요구사항 (재질, 공차 등)",
+      "attachFiles": "도면 또는 사양서 첨부",
+      "submit": "견적 요청하기",
+      "cancel": "취소"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "로그인",
+      "email": "이메일",
+      "password": "비밀번호",
+      "submit": "로그인",
+      "noAccount": "아직 계정이 없으신가요?",
+      "register": "회원가입 하기"
+    },
+    "register": {
+      "title": "기업 파트너 가입",
+      "description": "KJ Kakehashi B2B 플랫폼에 입점하여 귀사의 제품을 글로벌 바이어에게 알리세요.",
+      "companyName": "회사명",
+      "businessNumber": "사업자등록번호",
+      "contactName": "담당자 이름",
+      "email": "비즈니스 이메일",
+      "password": "비밀번호",
+      "passwordConfirm": "비밀번호 확인",
+      "submit": "가입 신청",
+      "hasAccount": "이미 계정이 있으신가요?",
+      "login": "로그인 하기"
+    }
+  },
+  "admin": {
+    "title": "플랫폼 관리자",
+    "overview": "대시보드 개요",
+    "users": "회원 및 기업 관리",
+    "products": "제품 및 스펙 관리",
+    "stats": {
+      "totalUsers": "총 가입 기업",
+      "pendingApprovals": "승인 대기 기업",
+      "totalProducts": "총 등록 제품",
+      "totalRfqs": "누적 견적 요청 (RFQ)"
+    }
+  }
+}

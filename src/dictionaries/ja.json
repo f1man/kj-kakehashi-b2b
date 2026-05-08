@@ -1,0 +1,143 @@
+{
+  "home": {
+    "title": "韓日産業サプライチェーンの新しい基準",
+    "description": "5万件以上のスペックデータと検証済みの韓日製造・IT企業ベース。AI検索で最適なパートナーを最速で見つけましょう。",
+    "searchPlaceholder": "製品名、仕様、またはメーカーを検索",
+    "searchButton": "検索",
+    "categories": "主要産業カテゴリー",
+    "viewAll": "すべて表示",
+    "featuredProducts": "おすすめ製品・部品",
+    "verifiedSuppliers": "検証済みの韓日パートナー企業",
+    "stats": {
+      "products": "登録製品",
+      "companies": "パートナー企業",
+      "rfqs": "累計見積依頼"
+    }
+  },
+  "products": {
+    "title": "製品検索",
+    "filters": "絞り込み (Faceted Search)",
+    "category": "カテゴリー",
+    "specifications": "技術仕様",
+    "certification": "認証・規格",
+    "brand": "ブランド・メーカー",
+    "results": "検索結果",
+    "requestQuote": "見積依頼 (RFQ)",
+    "viewDetails": "詳細を見る",
+    "compatible": "互換性あり"
+  },
+  "companies": {
+    "title": "企業ディレクトリ",
+    "filters": "企業フィルター",
+    "industry": "産業分野",
+    "verification": "認証ステータス",
+    "country": "国",
+    "results": "検索結果",
+    "viewProfile": "企業プロフィールを見る",
+    "contactSales": "営業問い合わせ"
+  },
+  "dashboard": {
+    "title": "パートナーダッシュボード",
+    "sidebar": {
+      "profile": "企業情報管理",
+      "products": "製品管理",
+      "rfqs": "見積依頼 (RFQ)",
+      "analytics": "アクセス統計"
+    },
+    "profile": {
+      "title": "企業情報管理",
+      "save": "保存する",
+      "basicInfo": "基本情報",
+      "companyName": "会社名",
+      "description": "会社紹介",
+      "aiSummary": "AI要約説明",
+      "media": "メディア・ファイル",
+      "uploadLogo": "ロゴをアップロード",
+      "uploadCatalog": "会社案内 (PDF) アップロード"
+    },
+    "products": {
+      "title": "製品管理",
+      "addNew": "新製品を登録",
+      "list": "登録済み製品",
+      "name": "製品名",
+      "category": "カテゴリー",
+      "status": "ステータス",
+      "actions": "管理",
+      "form": {
+        "title": "製品登録",
+        "basicInfo": "基本情報",
+        "specs": "技術仕様 (Specs)",
+        "addSpec": "仕様を追加",
+        "specName": "項目 (例: 電圧)",
+        "specValue": "値 (例: 24V DC)",
+        "submit": "製品を登録する"
+      }
+    }
+  },
+  "inquiry": {
+    "title": "お問い合わせ",
+    "description": "KJ Kakehashi B2Bプラットフォームに関するご質問やパートナーシップのご提案をお寄せください。",
+    "form": {
+      "company": "会社名",
+      "name": "ご担当者名",
+      "email": "ビジネスメール",
+      "phone": "電話番号",
+      "type": "お問い合わせの種類",
+      "typeOptions": {
+        "partnership": "提携・パートナーシップ",
+        "support": "プラットフォーム利用について",
+        "sales": "広告・営業",
+        "other": "その他"
+      },
+      "message": "お問い合わせ内容",
+      "submit": "送信する"
+    }
+  },
+  "rfq": {
+    "title": "見積依頼 (RFQ)",
+    "description": "必要な部品や製品の詳細仕様を入力して、見積もりを依頼してください。",
+    "form": {
+      "quantity": "数量",
+      "deadline": "希望納期",
+      "notes": "追加要件 (材質、公差など)",
+      "attachFiles": "図面・仕様書の添付",
+      "submit": "見積もりを依頼する",
+      "cancel": "キャンセル"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "ログイン",
+      "email": "メールアドレス",
+      "password": "パスワード",
+      "submit": "ログイン",
+      "noAccount": "アカウントをお持ちでないですか？",
+      "register": "会員登録"
+    },
+    "register": {
+      "title": "企業パートナー登録",
+      "description": "KJ Kakehashi B2Bプラットフォームに出店し、貴社の製品をグローバルバイヤーに宣伝しましょう。",
+      "companyName": "会社名",
+      "businessNumber": "法人番号",
+      "contactName": "担当者名",
+      "email": "ビジネスメール",
+      "password": "パスワード",
+      "passwordConfirm": "パスワード確認",
+      "submit": "登録申請",
+      "hasAccount": "すでにアカウントをお持ちですか？",
+      "login": "ログイン"
+    }
+  },
+  "admin": {
+    "title": "プラットフォーム管理者",
+    "overview": "ダッシュボード概要",
+    "users": "会員・企業管理",
+    "products": "製品・スペック管理",
+    "stats": {
+      "totalUsers": "総登録企業",
+      "pendingApprovals": "承認待ち企業",
+      "totalProducts": "総登録製品",
+      "totalRfqs": "累計見積依頼 (RFQ)"
+    }
+  }
+}
