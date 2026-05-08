@@ -104,8 +104,9 @@ export default async function ProductsPage({
           <h1 className="text-2xl font-bold">{dict.products.title}</h1>
           <span className="text-sm text-slate-500">{mockProducts.length} {dict.products.results}</span>
         </div>
-
-        <ProductList products={mockProducts} lang={lang} dict={dict} />
+        <div className="lg:col-span-3">
+        <ProductList products={mockProducts} lang={lang as Locale} dict={dict} />
+      </div>
       </main>
     </div>
   );

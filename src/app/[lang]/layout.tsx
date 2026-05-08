@@ -30,11 +30,11 @@ export default async function RootLayout({
   return (
     <html lang={lang} className={inter.className}>
       <body className="min-h-screen bg-slate-50 antialiased flex flex-col dark:bg-slate-950">
-        <Header lang={lang} dict={dict} />
+        <Header lang={lang as Locale} dict={dict} />
         <main className="flex-1 flex flex-col">
           {children}
         </main>
-        <Footer lang={lang} />
+        <Footer lang={lang as Locale} />
       </body>
     </html>
   );
