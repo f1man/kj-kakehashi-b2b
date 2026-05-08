@@ -6,10 +6,10 @@ import { Check, X, Shield, Building2, CreditCard, UserCheck } from "lucide-react
 export default async function AdminUsersPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   const pendingUsers = [
     { id: 1, company: "Hyundai Robotics", email: "admin@hyundai-robotics.com", regNumber: "123-45-67890", date: "2026-05-08", workflow: "신청중 (Pending)" },

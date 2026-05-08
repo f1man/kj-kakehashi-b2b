@@ -7,10 +7,10 @@ import Link from "next/link";
 export default async function GeneralRFQPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   return (
     <div className="container mx-auto px-4 py-12 max-w-4xl">

@@ -7,10 +7,10 @@ import Link from "next/link";
 export default async function DashboardProductsPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   const mockProducts = [
     { id: 1, name: "High-Precision Servo Motor KV-7000 Series", category: "Factory Automation", status: "Active" },

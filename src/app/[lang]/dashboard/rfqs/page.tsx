@@ -6,10 +6,10 @@ import { FileText, CheckCircle2, Clock, MessageSquare, Paperclip } from "lucide-
 export default async function DashboardRFQsPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   const mockRfqs = [
     {

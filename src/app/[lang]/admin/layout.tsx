@@ -8,10 +8,10 @@ export default async function AdminLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   const navItems = [
     { icon: BarChart2, label: dict.admin?.overview || "Overview", href: `/${lang}/admin` },

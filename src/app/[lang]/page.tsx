@@ -7,10 +7,10 @@ import FadeIn from "@/components/shared/FadeIn";
 export default async function Home({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   const categories = [
     { icon: Factory, name: dict.home?.categories?.automation || "Factory Automation", count: "12,400+", bg: "bg-blue-100 dark:bg-blue-900/30", color: "text-blue-600 dark:text-blue-400" },

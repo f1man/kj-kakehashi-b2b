@@ -6,10 +6,10 @@ import { UserPlus, ShieldAlert, Key } from "lucide-react";
 export default async function AdminAccountsPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   const admins = [
     { id: 1, name: "System Owner", email: "root@kjkakehashi.com", role: "Super Admin", status: "Active" },

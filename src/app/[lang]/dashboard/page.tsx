@@ -8,10 +8,10 @@ import FileUpload from "@/components/shared/FileUpload";
 export default async function DashboardProfilePage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   return (
     <div className="space-y-6">

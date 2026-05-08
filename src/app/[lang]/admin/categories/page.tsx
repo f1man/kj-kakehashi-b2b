@@ -6,10 +6,10 @@ import { Tags, Plus, Trash2, Edit } from "lucide-react";
 export default async function AdminCategoriesPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   const categories = [
     { id: 1, nameKo: "센서 / 스위치", nameJa: "センサー / スイッチ", slug: "sensors-switches", productCount: 1420 },

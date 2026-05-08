@@ -7,10 +7,10 @@ import Link from "next/link";
 export default async function CompaniesPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   // Mock data for Facets and Companies
   const industries = ["Factory Automation", "Industrial Sensors", "Network Equipment", "MRO Parts", "IT Infrastructure"];

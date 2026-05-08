@@ -7,10 +7,10 @@ import { Button } from "@/components/ui/button";
 export default async function AboutPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   return (
     <div className="bg-white dark:bg-slate-950 min-h-screen">

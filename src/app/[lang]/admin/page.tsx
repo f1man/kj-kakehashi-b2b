@@ -5,10 +5,10 @@ import { Building2, PackageSearch, FileText, CheckCircle } from "lucide-react";
 export default async function AdminOverviewPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   const stats = [
     { label: dict.admin?.stats?.totalUsers || "Total Registered Companies", value: "248", icon: Building2, color: "text-blue-600", bg: "bg-blue-100 dark:bg-blue-900/30" },

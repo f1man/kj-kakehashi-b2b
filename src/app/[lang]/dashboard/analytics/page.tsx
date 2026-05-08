@@ -5,10 +5,10 @@ import { BarChart3, TrendingUp, Eye, FileText, MousePointerClick } from "lucide-
 export default async function DashboardAnalyticsPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   const stats = [
     { label: "Company Profile Views", value: "1,248", change: "+12%", icon: Eye, color: "text-blue-600", bg: "bg-blue-100 dark:bg-blue-900/30" },

@@ -8,10 +8,10 @@ export default async function DashboardLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   const navItems = [
     { icon: Building, label: dict.dashboard.sidebar.profile, href: `/${lang}/dashboard` },

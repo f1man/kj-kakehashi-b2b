@@ -5,10 +5,10 @@ import { Search, ArrowRightLeft } from "lucide-react";
 export default async function StandardsPage({
   params,
 }: {
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dict = await getDictionary(lang);
+  const dict = await getDictionary(lang as Locale);
 
   const mappings = [
     { type: "Steel", jis: "JIS G 3101 SS400", ks: "KS D 3503 SS275", desc: "Rolled steels for general structure" },

@@ -5,9 +5,10 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-export default function PricingPage({ params }: { params: { lang: string } }) {
+export default async function PricingPage({ params }: { params: Promise<{ lang: string }> }) {
   // Using client component to enable framer-motion animations
   
+  const { lang } = await params;
   const tiers = [
     {
       name: "Free",
