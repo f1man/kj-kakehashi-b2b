@@ -13,10 +13,10 @@ export default async function Home({
   const dict = await getDictionary(lang as Locale);
 
   const categories = [
-    { icon: Factory, name: dict.home?.categories?.automation || "Factory Automation", count: "12,400+", bg: "bg-blue-100 dark:bg-blue-900/30", color: "text-blue-600 dark:text-blue-400" },
-    { icon: Cpu, name: dict.home?.categories?.electronics || "Electronics", count: "8,200+", bg: "bg-emerald-100 dark:bg-emerald-900/30", color: "text-emerald-600 dark:text-emerald-400" },
-    { icon: Zap, name: dict.home?.categories?.power || "Power & Transmission", count: "5,100+", bg: "bg-amber-100 dark:bg-amber-900/30", color: "text-amber-600 dark:text-amber-400" },
-    { icon: Box, name: dict.home?.categories?.materials || "Materials & Metals", count: "15,800+", bg: "bg-purple-100 dark:bg-purple-900/30", color: "text-purple-600 dark:text-purple-400" }
+    { icon: Factory, name: "Factory Automation", count: "12,400+", bg: "bg-blue-100 dark:bg-blue-900/30", color: "text-blue-600 dark:text-blue-400" },
+    { icon: Cpu, name: "Electronics", count: "8,200+", bg: "bg-emerald-100 dark:bg-emerald-900/30", color: "text-emerald-600 dark:text-emerald-400" },
+    { icon: Zap, name: "Power & Transmission", count: "5,100+", bg: "bg-amber-100 dark:bg-amber-900/30", color: "text-amber-600 dark:text-amber-400" },
+    { icon: Box, name: "Materials & Metals", count: "15,800+", bg: "bg-purple-100 dark:bg-purple-900/30", color: "text-purple-600 dark:text-purple-400" }
   ];
 
   const featuredProducts = [
