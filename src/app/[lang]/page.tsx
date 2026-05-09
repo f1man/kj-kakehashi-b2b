@@ -34,12 +34,12 @@ export default async function Home({
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <FadeIn>
               <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight">
-                {dict.home?.hero?.title || "Discover Industrial Supply Chains"}
+                {dict.home?.title || "Discover Industrial Supply Chains"}
               </h1>
             </FadeIn>
             <FadeIn delay={0.2}>
               <p className="text-lg md:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
-                {dict.home?.hero?.subtitle || "Search and connect with premium suppliers across Korea and Japan."}
+                {dict.home?.description || "Search and connect with premium suppliers across Korea and Japan."}
               </p>
             </FadeIn>
             
@@ -107,10 +107,10 @@ export default async function Home({
             <FadeIn>
               <ShieldCheck className="h-16 w-16 text-blue-600 mx-auto mb-6" />
               <h2 className="text-3xl font-bold text-slate-900 dark:text-white mb-4">
-                {dict.home?.trustedPartners?.title || "Trusted by Industry Leaders"}
+                {dict.home?.verifiedSuppliers || "Trusted by Industry Leaders"}
               </h2>
               <p className="text-lg text-slate-600 dark:text-slate-400">
-                {dict.home?.trustedPartners?.subtitle || "All suppliers are verified."}
+                All suppliers are verified.
               </p>
             </FadeIn>
           </div>
